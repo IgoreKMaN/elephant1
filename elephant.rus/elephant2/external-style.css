@@ -1,0 +1,22 @@
+svg {
+	width: 10em;
+	height: 5rem;
+}
+
+.primer1{
+	background-color: red;
+}
+
+.primer1 path{
+	stroke: #009966;
+	transition: all 1s;
+	stroke-dasharray: 0 10;
+
+}
+
+.primer1 svg:hover path{
+	fill: #4286f4;
+	stroke-dasharray: 10 0;
+}
+
+
